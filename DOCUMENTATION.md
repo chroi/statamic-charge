@@ -135,7 +135,7 @@ Example - Charge Form - Stripe Checkout:
             data-locale="auto"
             data-currency="{{ currency }}">
     </script>
-{{ /charge:form }}
+{{ /charge:payment_form }}
 ```
 
 Example - Statamic Form:
