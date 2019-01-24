@@ -79,7 +79,7 @@ In the email template, you have access to:
 
 ### Forms ###
 
-*NOTE*: all ways below require `{{ charge:js }}` be loaded on the appropriate template. Stripe recommends that its library is loaded on every page for fraud detection so I suggest putting it in your layout.
+> *NOTE*: all ways below require `{{ charge:js }}` be loaded on the appropriate template. Stripe recommends that its library is loaded on every page for fraud detection so I suggest putting it in your layout.
 
 A Stripe Customer is created on a charge, unless the customer has been charged before (via Charge).
 
